@@ -6,3 +6,7 @@ look here for more information:
 http://www.usna.edu/Users/weapsys/esposito/roomba.matlab/
 http://marcusfutterlieb.com/roomba.html
 
+and here for videos on what you can do with this code:
+https://youtu.be/hPpPM0kasyk
+https://youtu.be/g-6yrYu4PUs
+
