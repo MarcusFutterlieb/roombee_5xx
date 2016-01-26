@@ -1,42 +1,21 @@
 <alphabet>
     <letter>
-        
+        <describtion name ="K"/>
         <movement_sequence>
-            <point x="0" y="0" />
-            <point x="4" y="0" />
-            <point x="4" y="0.1" />
-            <point x="0" y="0.1" />
+            <move_turn move="1.0" turn="180"/>
+            <move_turn move="0.5" turn="135"/>
+            <move_turn move="0.6" turn="180"/>
+            <move_turn move="0.6" turn="90"/>
+            <move_turn move="0.6" turn="45"/>
         </movement_sequence>
     </letter>
     
-    <obstacle>
-        <pose x="-2.0" y="-2.0" theta="1.5708" />
-        <geometry>
-            <point x="0" y="0" />
-            <point x="4" y="0" />
-            <point x="4" y="0.1" />
-            <point x="0" y="0.1" />
-        </geometry>
-    </obstacle>
-    
-        <obstacle>
-        <pose x="2.0" y="-2.0" theta="1.5708" />
-        <geometry>
-            <point x="0" y="0" />
-            <point x="4" y="0" />
-            <point x="4" y="0.1" />
-            <point x="0" y="0.1" />
-        </geometry>
-    </obstacle>
-    
-    <obstacle>
-        <pose x="-2.1" y="2.0" theta="0" />
-        <geometry>
-            <point x="0" y="0" />
-            <point x="4.1" y="0" />
-            <point x="4.1" y="0.1" />
-            <point x="0" y="0.1" />
-        </geometry>
-    </obstacle>
-    
+    <letter>
+        <describtion name ="I"/>
+        <movement_sequence>
+            <move_turn move="0.0" turn="90"/>
+            <move_turn move="1.0" turn="180"/>
+            <move_turn move="0.0" turn="90"/>
+        </movement_sequence>
+    </letter>
 </alphabet>

@@ -18,4 +18,15 @@
             <move_turn move="0.0" turn="90"/>
         </movement_sequence>
     </letter>
+
+    <letter>
+        <describtion name ="R"/>
+        <movement_sequence>
+            <move_turn move="1.0" turn="-90"/>
+            <move_turn move="0.3" turn="-90"/>
+            <move_turn move="0.3" turn="-90"/>
+	    <move_turn move="0.3" turn="135"/>
+            <move_turn move="0.76" turn="45"/>
+        </movement_sequence>
+    </letter>
 </alphabet>
