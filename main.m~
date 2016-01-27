@@ -36,18 +36,7 @@ happy_birthday_str          = 'roomba: Happy Birthday ';
 %ask for string to print
 prompt                      = 'roomba: please enter the name you want me to write  -->';
 string                      = input(prompt,'s');
-string_vec                  = 'a';
-for (i=1:1:size(string,2))
-    string_vec(i,1)           = string(i);
-end%for
-
-%ask for scalefactor
-prompt                      = 'roomba: what scale should the name have  -->';
-scalefactor                 = input(prompt);
-
-
- 
-%kirsten_str                 = ['K';'I';'R';'S';'T';'E';'N';];
+kirsten_str                 = ['K';'I';'R';'S';'T';'E';'N';];
 
 
 % variables needed to have a nice window which lets us stop the program
@@ -284,7 +273,7 @@ for jj=1:4:size(robo_path,1)
     pause(0.002);
     if(ii<=size(l_vec,1))
         if (jj>letter_count(l_vec(ii)))
-            happy_birthday_str = [happy_birthday_str string_vec(ii) ];
+            happy_birthday_str = [happy_birthday_str kirsten_str(ii) ];
             ii = ii + 1;
         end%if
     end%if
