@@ -1,9 +1,10 @@
 \documentclass[a4paper,10pt]{book}
 \usepackage[utf8]{inputenc}
 \usepackage{minitoc} %to get mini table of contents for each chapter
+\usepackage{hyperref} %hyperlinks
 
 
-\title{manual for roombee}
+\title{Roombee Manual}
 \author{Marcus Futterlieb}
 \date{20.01.2016}
 
@@ -19,6 +20,25 @@
 \begin{document}
 \dominitoc
 \maketitle
+
+\chapter{Disclaimer}
+\chapter{Prerequisites and Requirements}
+\chapter{How to use the Code}
+\chapter{How to create the Light Graffiti Effect}
+The tool used for post processing the video material is \href{https://kdenlive.org/}{Kdenlive.
+It should be accessable through the apt-get command.
+
+\vspace {0.5cm}
+
+Examples can be found at:
+
+
+\begin{itemize}
+  \item \href{https://youtu.be/hPpPM0kasyk}{Youtube video of a roomba following a certain letter sequence}
+  \item \href{https://youtu.be/g-6yrYu4PUs}{Youtube video of a roomba following a certain letter sequence}
+\end{itemize}
+
+
 
 
 \end{document}
