@@ -25,8 +25,11 @@
 \chapter{Prerequisites and Requirements}
 \chapter{How to use the Code}
 \chapter{How to create the Light Graffiti Effect}
-The tool used for post processing the video material is \href{https://kdenlive.org/}{Kdenlive.
-It should be accessable through the apt-get command.
+The tool used for post processing the video material is \href{https://kdenlive.org/}{Kdenlive}.
+It should be accessible through the apt-get command.
+Once installed it handles much like any other video editing software.
+The effect you are looking for is called "Light Graffiti" and can be found under:\\
+Effect List/Misc/ Light Graffiti
 
 \vspace {0.5cm}
 
@@ -34,8 +37,8 @@ Examples can be found at:
 
 
 \begin{itemize}
-  \item \href{https://youtu.be/hPpPM0kasyk}{Youtube video of a roomba following a certain letter sequence}
-  \item \href{https://youtu.be/g-6yrYu4PUs}{Youtube video of a roomba following a certain letter sequence}
+  \item \href{https://youtu.be/hPpPM0kasyk}{Youtube video of a roomba following a certain letter sequence indoors}
+  \item \href{https://youtu.be/g-6yrYu4PUs}{Youtube video of a roomba following a certain letter sequence outdoors}
 \end{itemize}
 
 
