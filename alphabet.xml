@@ -1,6 +1,6 @@
 <alphabet>
     <letter>
-        <describtion name ="K"/>
+        <describtion name ="K" out="bottom"/>
         <movement_sequence>
             <move_turn move="1.0" turn="180"/>
             <move_turn move="0.5" turn="135"/>
@@ -11,16 +11,16 @@
     </letter>
     
     <letter>
-        <describtion name ="I"/>
+        <describtion name ="I" out="bottom"/>
         <movement_sequence>
-            <move_turn move="0.0" turn="90"/>
+            <move_turn move="0.3" turn="90"/>
             <move_turn move="1.0" turn="180"/>
-            <move_turn move="0.0" turn="90"/>
+            <move_turn move="1.0" turn="90"/>
         </movement_sequence>
     </letter>
 
     <letter>
-        <describtion name ="R"/>
+        <describtion name ="R" out="bottom"/>
         <movement_sequence>
             <move_turn move="1.0" turn="-90"/>
             <move_turn move="0.3" turn="-90"/>
@@ -29,4 +29,53 @@
             <move_turn move="0.76" turn="45"/>
         </movement_sequence>
     </letter>
+    
+    <letter>
+        <describtion name ="S" out="top"/>
+        <movement_sequence>
+            <move_turn move="0.5" turn="90"/>
+            <move_turn move="0.5" turn="90"/>
+            <move_turn move="0.5" turn="-90"/>
+            <move_turn move="0.5" turn="-90"/>
+            <move_turn move="0.5" turn="0"/>
+        </movement_sequence>
+    </letter>
+    
+    <letter>
+        <describtion name ="T" out="top"/>
+        <movement_sequence>
+            <move_turn move="0.3" turn="90"/>
+            <move_turn move="1.0" turn="90"/>
+            <move_turn move="0.3" turn="180"/>
+            <move_turn move="0.6" turn="0"/>
+        </movement_sequence>
+    </letter>
+    
+    <letter>
+        <describtion name ="E" out="bottom"/>
+        <movement_sequence>
+            <move_turn move="0.0" turn="90"/>
+            <move_turn move="1.0" turn="-90"/>
+            <move_turn move="0.3" turn="180"/>
+            <move_turn move="0.3" turn="90"/>
+            <move_turn move="0.3" turn="90"/>
+            <move_turn move="0.3" turn="180"/>
+            <move_turn move="0.3" turn="90"/>
+            <move_turn move="0.4" turn="90"/>
+            <move_turn move="0.4" turn="180"/>
+            <move_turn move="0.4" turn="0"/>
+        </movement_sequence>
+    </letter>
+    
+    <letter>
+        <describtion name ="N" out="top"/>
+        <movement_sequence>
+            <move_turn move="0.0" turn="90"/>
+            <move_turn move="1.0" turn="-135"/>
+            <move_turn move="1.09" turn="135"/>
+            <move_turn move="1.0" turn="-135"/>
+            <move_turn move="0.0" turn="-90"/>
+        </movement_sequence>
+    </letter>
+    
 </alphabet>
