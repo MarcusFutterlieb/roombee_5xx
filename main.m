@@ -32,19 +32,37 @@ robot_pose_abs              = [0;0;0];
 robo_path                   = [0;0;0];
 letter_count                = [];
 happy_birthday_str          = 'roomba: Happy Birthday ';
+root                        = pwd;
+alphabet_file_path          = [pwd,'/alphabet.xml'];
+movement_encyclopedia       = xmlread(alphabet_file_path);
 
 %ask for string to print
 prompt                      = 'roomba: please enter the name you want me to write  -->';
 string                      = input(prompt,'s');
 string_vec                  = 'a';
 for (i=1:1:size(string,2))
-    string_vec(i,1)           = string(i);
+    string_vec(i,1)         = string(i);
 end%for
 
 %ask for scalefactor
 prompt                      = 'roomba: what scale should the name have  -->';
 scalefactor                 = input(prompt);
 
+%build movement-vector from string
+
+disp('roomba: parsing alphabet for associated movements');
+target_vec                  = 0;
+for (i=1:1:size (string_vec,1))
+    
+    symbol_list = movement_encyclopedia.getElementsByTagName('letter');
+
+                for j = 0:(symbol_list.getLength-1)
+                    symbol      = symbol_list.item(j);
+                    description = char(symbol.getAttribute('description'));
+                end%for
+    
+    target_vec = movement_encyclopedia.getElementsByTagName('letter');
+end%for
 
  
 %kirsten_str                 = ['K';'I';'R';'S';'T';'E';'N';];
