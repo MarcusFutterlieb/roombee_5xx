@@ -7,15 +7,15 @@ disp('Hey roomba, wake up!!!');
 disp('************************************************************');
 
 disp('roomba: .')
-pause(1.);
+pause(0.5);
 disp('roomba: ..')
-pause(1.);
+pause(0.5);
 disp('roomba: ...')
-pause(1.);
+pause(0.5);
 disp('roomba: ....')
-pause(1.);
+pause(0.5);
 disp('roomba: .....')
-pause(1.);
+pause(0.5);
 
 
 
@@ -52,16 +52,33 @@ scalefactor                 = input(prompt);
 
 disp('roomba: parsing alphabet for associated movements');
 target_vec                  = 0;
+target_vec_tmp              = 0;
+out_vec                     = 0;
+out_vec_tmp                 = 0;
 for (i=1:1:size (string_vec,1))
     
     symbol_list = movement_encyclopedia.getElementsByTagName('letter');
 
-                for j = 0:(symbol_list.getLength-1)
+                for j = 0:1:(symbol_list.getLength-1)
                     symbol      = symbol_list.item(j);
-                    description = char(symbol.getAttribute('description'));
+                    name        = char(symbol.getAttribute('name'));
+                    name_cmp    = string_vec(i);
+                    if(strcmp(name,name_cmp)==true)
+                        out_vec_tmp                 = char(symbol.getAttribute('out'));
+                        movement_sequence           = symbol.getElementsByTagName('movement_sequence').item(0);
+                        movement_sequence_list      = movement_sequence.getElementsByTagName('move_turn');
+                        target_vec_tmp              = 0;
+                        for k = 1:1:(movement_sequence_list.getLength-1)
+                            move_turn   = movement_sequence_list.item(k);
+                            target_vec_tmp(k,1) = str2double(move_turn.getAttribute('move'));
+                            target_vec_tmp(k,2) = str2double(move_turn.getAttribute('turn'));
+                        end%for
+                        break;
+                    end%if
                 end%for
     
-    target_vec = movement_encyclopedia.getElementsByTagName('letter');
+    target_vec  = [target_vec;target_vec_tmp];
+    out_vec     = [out_vec;out_vec_tmp];
 end%for
 
  

@@ -2,20 +2,18 @@
 <!--to add new symbols write down the length of each movement and the final oriantation (degree not radians) of the robot-->
 <alphabet>
 
-    <letter>
-        <describtion name ="A" out="bottom"/>
+    <letter name ="A" out="bottom">
         <movement_sequence>
             <move_turn move="0.0" turn="45"/>
             <move_turn move="1.09" turn="-90"/>
             <move_turn move="0.4" turn="-135"/>
             <move_turn move="0.5" turn="180"/>
             <move_turn move="0.5" turn="-45"/>
-	    <move_turn move="0.609" turn="45"/>
+            <move_turn move="0.609" turn="45"/>
         </movement_sequence>
     </letter>
 
-    <letter>
-        <describtion name ="K" out="bottom"/>
+    <letter name ="K" out="bottom">
         <movement_sequence>
             <move_turn move="1.0" turn="180"/>
             <move_turn move="0.5" turn="135"/>
@@ -25,8 +23,7 @@
         </movement_sequence>
     </letter>
     
-    <letter>
-        <describtion name ="I" out="bottom"/>
+    <letter name ="I" out="bottom">
         <movement_sequence>
             <move_turn move="0.3" turn="90"/>
             <move_turn move="1.0" turn="180"/>
@@ -34,8 +31,7 @@
         </movement_sequence>
     </letter>
 
-    <letter>
-        <describtion name ="R" out="bottom"/>
+    <letter name ="R" out="bottom">
         <movement_sequence>
             <move_turn move="1.0" turn="-90"/>
             <move_turn move="0.3" turn="-90"/>
@@ -45,8 +41,7 @@
         </movement_sequence>
     </letter>
     
-    <letter>
-        <describtion name ="S" out="top"/>
+    <letter name ="S" out="top">
         <movement_sequence>
             <move_turn move="0.5" turn="90"/>
             <move_turn move="0.5" turn="90"/>
@@ -56,8 +51,7 @@
         </movement_sequence>
     </letter>
     
-    <letter>
-        <describtion name ="T" out="top"/>
+    <letter name ="T" out="top">
         <movement_sequence>
             <move_turn move="0.3" turn="90"/>
             <move_turn move="1.0" turn="90"/>
@@ -66,8 +60,7 @@
         </movement_sequence>
     </letter>
     
-    <letter>
-        <describtion name ="E" out="bottom"/>
+    <letter name ="E" out="bottom">
         <movement_sequence>
             <move_turn move="0.0" turn="90"/>
             <move_turn move="1.0" turn="-90"/>
@@ -82,8 +75,7 @@
         </movement_sequence>
     </letter>
 
-    <letter>
-        <describtion name ="M" out="bottom"/>
+    <letter name ="M" out="bottom">
         <movement_sequence>
             <move_turn move="0.0" turn="90"/>
             <move_turn move="1.0" turn="-135"/>
@@ -93,8 +85,7 @@
         </movement_sequence>
     </letter>
     
-    <letter>
-        <describtion name ="N" out="top"/>
+    <letter name ="N" out="top">
         <movement_sequence>
             <move_turn move="0.0" turn="90"/>
             <move_turn move="1.0" turn="-135"/>
