@@ -46,7 +46,7 @@ end%for
 
 %ask for scalefactor
 prompt                      = 'roomba: what scale should the name have  -->';
-scale_factor                = input(prompt);
+scalefactor                 = input(prompt);
 
 %build movement-vector from string
 
@@ -93,7 +93,7 @@ for (i=1:1:size (string_vec,1))
 end%for
 %apply scale factor
 
-target_vec = [target_vec(:,1).*scale_factor,target_vec(:,2)];
+target_vec = [target_vec(:,1).*scalefactor,target_vec(:,2)]
 
 %kirsten_str                 = ['K';'I';'R';'S';'T';'E';'N';];
 
@@ -331,14 +331,14 @@ l_vec = symbol_length_vec;
 
 for jj=1:4:size(robo_path,1)
     plot(robo_path(jj,1),robo_path(jj,2),'b--o');
-    pause(0.001);
-    if(ii<=size(l_vec,1))
-        if (jj>letter_count(l_vec(ii)-1))
-            happy_birthday_str = [happy_birthday_str string_vec(ii) ];
-            ii = ii + 1;
-        end%if
-    end%if
-    disp(happy_birthday_str);
+    pause(0.002);
+%     if(ii<=size(l_vec,1))
+%         if (jj>letter_count(l_vec(ii)))
+%             happy_birthday_str = [happy_birthday_str string_vec(ii) ];
+%             ii = ii + 1;
+%         end%if
+%     end%if
+%     disp(happy_birthday_str);
 end%for
 hold off;
 
@@ -347,12 +347,12 @@ hold off;
 disp('roomba: kirsten_b_day.m executed succesfully');
 pause(3.);
 disp('roomba: going back to sleep');
-pause(0.1);
+pause(1.);
 disp('roomba: going back to sleep .');
-pause(0.1);
+pause(1.);
 disp('roomba: going back to sleep ..');
-pause(0.1);
+pause(1.);
 disp('roomba: going back to sleep ...');
-pause(0.1);
+pause(1.);
 disp('roomba: zzzzz ZZZZ zzzzz ZZZZZ');
-pause(0.1);
+pause(1.);
