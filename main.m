@@ -135,86 +135,7 @@ else
     td = 0.02;
 end%if
 
-% h_start_end     = 0.7;
-% h               = 0.5;
-% w               = 0.25;
-% space_between   = 0.2;
-% 
-% h_start_end     = h_start_end/2;
-% h               = h/2;
-% w               = w/2;
-% space_between   = space_between/2;
-% 
-% c1 = (2 * (w^2))^0.5;
-% c2 = (w^2 + h^2)^0.5;
-% c3 = h/(cos(pi/4));
-% 
-% turn_1080   = [0,1080];
-% turn_360    = [0,360];
-% go_to_K     = [space_between,90];
-% write_K     = [h_start_end,180;...
-%                h/2,135;...
-%                c1,180; ...
-%                c1,90;...
-%                c1,45];
-% 
-% go_to_I     = [space_between,90];
-% write_I     = [h,180; ...
-%                h,90];
-%             
-% go_to_R     = [space_between,90];
-% 
-% write_R     = [h,-90; ...
-%                 w,-90;...
-%                 w,-90;...
-%                 w,135;...
-%                 c1,45];
-% 
-% go_to_S     = [space_between,0];
-% 
-% write_S     = [w,90;...
-%                 w,90;...
-%                 w,-90;...
-%                 w,-90;...
-%                 w,0];
-% 
-% go_to_T     = go_to_S;
-% 
-% write_T     = [h,180;...
-%                 w,90;...
-%                 h,90];
-%             
-% go_to_E     = [w+space_between,90];
-% 
-% write_E     = [h,-90;...
-%                 w,180;...
-%                 w,90;...
-%                 w,90;...
-%                 w,180;...
-%                 w,90;...
-%                 w,90;...
-%                 w,0];
-%             
-% go_to_N     =    go_to_R;        
-% 
-% 
-% write_N     = [h,-135;...
-%                 c3,135;...
-%                 h_start_end,-90];
-%   
-% go_to_end   = go_to_S;
 
-
-% target_vec =  [   turn_360;go_to_K; ... 
-%     write_K;go_to_I;   ...
-%     write_I;go_to_R;   ...
-%     write_R;go_to_S;   ...
-%     write_S;go_to_T;   ...
-%     write_T;go_to_E;   ...
-%     write_E;go_to_N;   ...
-%     write_N;go_to_end; ...
-%     turn_360           ...
-% ];
 
 
 
@@ -318,13 +239,6 @@ f2                           = figure(2);
 set(gcf,'position',[360 260 800 400]);
 hold on;
 ii = 1;
-% l_K    = size(turn_360,1) +    size(go_to_K,1) + size(write_K,1); 
-% l_I    = l_K +                  size(go_to_I,1) + size(write_I,1);
-% l_R    = l_I +                  size(go_to_R,1) + size(write_R,1);
-% l_S    = l_R +                  size(go_to_S,1) + size(write_S,1);
-% l_T    = l_S +                  size(go_to_T,1) + size(write_T,1);
-% l_E    = l_T +                  size(go_to_E,1) + size(write_E,1);
-% l_N    = l_E +                  size(go_to_N,1) + size(write_N,1);
 
 
 l_vec = symbol_length_vec;
@@ -333,7 +247,7 @@ for jj=1:4:size(robo_path,1)
     plot(robo_path(jj,1),robo_path(jj,2),'b--o');
     pause(0.001);
     if(ii<=size(l_vec,1))
-        if (jj>letter_count(l_vec(ii)-1))
+        if (jj>letter_count(l_vec(ii)-2))
             happy_birthday_str = [happy_birthday_str string_vec(ii) ];
             ii = ii + 1;
         end%if
@@ -343,8 +257,9 @@ end%for
 hold off;
 
 
-
-disp('roomba: kirsten_b_day.m executed succesfully');
+disp('************************************************************');
+disp('roomba: main.m executed succesfully');
+disp('************************************************************');
 pause(3.);
 disp('roomba: going back to sleep');
 pause(0.1);
