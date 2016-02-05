@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.2)  4 FEB 2016 15:55
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.2)  5 FEB 2016 11:34
 entering extended mode
  %&-line parsing enabled.
 **manual.tex
@@ -557,87 +557,6 @@ LaTeX Warning: Label `fig:b' multiply defined.
 
 LaTeX Warning: Label `sub@fig:b' multiply defined.
 
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:video_dynamic_2' multiply defined.
-
 )
 \openout1 = `manual.aux'.
 
@@ -741,6 +660,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing manual.mtc5.
 \openout3 = `manual.mtc5'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing manual.mtc6.
+\openout3 = `manual.mtc6'.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -765,6 +688,9 @@ Class scrbook Info: You've told me to use the font selection of the element
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
 (scrbook)            on input line 5.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 6.
 )
 \tf@toc=\write5
 \openout5 = `manual.toc'.
@@ -791,120 +717,69 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 ]
 Chapter 3.
-<media/resized/0.png, id=51, 803.0pt x 401.5pt>
+<media/resized/0.png, id=61, 803.0pt x 401.5pt>
 File: media/resized/0.png Graphic file (type png)
  <use media/resized/0.png>
-<media/resized/1.png, id=52, 803.0pt x 401.5pt>
-File: media/resized/1.png Graphic file (type png)
- <use media/resized/1.png>
-<media/resized/2.png, id=53, 803.0pt x 401.5pt>
-File: media/resized/2.png Graphic file (type png)
- <use media/resized/2.png>
-<media/resized/3.png, id=54, 803.0pt x 401.5pt>
-File: media/resized/3.png Graphic file (type png)
- <use media/resized/3.png>
-<media/resized/4.png, id=55, 803.0pt x 391.4625pt>
-File: media/resized/4.png Graphic file (type png)
- <use media/resized/4.png>
-<media/resized/5.png, id=56, 803.0pt x 401.5pt>
-File: media/resized/5.png Graphic file (type png)
- <use media/resized/5.png>
-<media/resized/6.png, id=57, 803.0pt x 401.5pt>
+<media/resized/6.png, id=62, 803.0pt x 401.5pt>
 File: media/resized/6.png Graphic file (type png)
  <use media/resized/6.png>
-
-LaTeX Warning: File `media/resized/7.png' not found on input line 63.
-
-
-! Package pdftex.def Error: File `media/resized/7.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...idth=0.45\textwidth]{media/resized/7.png}}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `media/resized/8.png' not found on input line 64.
-
-
-! Package pdftex.def Error: File `media/resized/8.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 ...idth=0.45\textwidth]{media/resized/8.png}}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<media/resized/9.png, id=58, 803.0pt x 401.5pt>
+<media/resized/7.png, id=63, 803.0pt x 401.5pt>
+File: media/resized/7.png Graphic file (type png)
+ <use media/resized/7.png>
+<media/resized/8.png, id=64, 803.0pt x 400.49625pt>
+File: media/resized/8.png Graphic file (type png)
+ <use media/resized/8.png>
+<media/resized/4.png, id=65, 803.0pt x 391.4625pt>
+File: media/resized/4.png Graphic file (type png)
+ <use media/resized/4.png>
+<media/resized/3.png, id=66, 803.0pt x 401.5pt>
+File: media/resized/3.png Graphic file (type png)
+ <use media/resized/3.png>
+<media/resized/10.png, id=67, 803.0pt x 401.5pt>
+File: media/resized/10.png Graphic file (type png)
+ <use media/resized/10.png>
+<media/resized/9.png, id=68, 803.0pt x 401.5pt>
 File: media/resized/9.png Graphic file (type png)
  <use media/resized/9.png>
-
-LaTeX Warning: File `media/resized/10.png' not found on input line 66.
-
-
-! Package pdftex.def Error: File `media/resized/10.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...dth=0.45\textwidth]{media/resized/10.png}}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<media/resized/11.png, id=59, 803.0pt x 401.5pt>
+<media/resized/11.png, id=69, 803.0pt x 401.5pt>
 File: media/resized/11.png Graphic file (type png)
  <use media/resized/11.png>
-
-LaTeX Warning: Citation `???!!!' on page 5 undefined on input line 68.
-
-
-LaTeX Warning: Citation `???!!!' on page 5 undefined on input line 68.
-
-
-LaTeX Warning: Float too large for page by 78.0075pt on input line 70.
-
-<media/resized/12.png, id=60, 803.0pt x 401.5pt>
+<media/resized/12.png, id=70, 803.0pt x 401.5pt>
 File: media/resized/12.png Graphic file (type png)
  <use media/resized/12.png>
-<media/resized/13.png, id=61, 803.0pt x 401.5pt>
+<media/resized/13.png, id=71, 803.0pt x 401.5pt>
 File: media/resized/13.png Graphic file (type png)
  <use media/resized/13.png>
-<media/resized/14.png, id=62, 803.0pt x 401.5pt>
+<media/resized/14.png, id=72, 803.0pt x 401.5pt>
 File: media/resized/14.png Graphic file (type png)
  <use media/resized/14.png>
-
-LaTeX Warning: Citation `???!!!' on page 5 undefined on input line 77.
-
-
-LaTeX Warning: Citation `???!!!' on page 5 undefined on input line 77.
-
+<media/resized/1.png, id=73, 803.0pt x 401.5pt>
+File: media/resized/1.png Graphic file (type png)
+ <use media/resized/1.png>
+<media/resized/2.png, id=74, 803.0pt x 401.5pt>
+File: media/resized/2.png Graphic file (type png)
+ <use media/resized/2.png>
 [5
 
 
-] [6 <./media/resized/0.png (PNG copy)> <./media/resized/1.png (PNG copy)> <./m
-edia/resized/2.png (PNG copy)> <./media/resized/3.png (PNG copy)> <./media/resi
-zed/4.png (PNG copy)> <./media/resized/5.png (PNG copy)>] [7 <./media/resized/6
-.png (PNG copy)> <./media/resized/9.png (PNG copy)> <./media/resized/11.png (PN
-G copy)>] [8 <./media/resized/12.png (PNG copy)> <./media/resized/13.png (PNG c
-opy)> <./media/resized/14.png (PNG copy)>]
+] [6 <./media/resized/0.png (PNG copy)> <./media/resized/6.png (PNG copy)> <./m
+edia/resized/7.png (PNG copy)> <./media/resized/8.png (PNG copy)> <./media/resi
+zed/4.png (PNG copy)> <./media/resized/3.png (PNG copy)>] [7 <./media/resized/1
+0.png (PNG copy)> <./media/resized/9.png (PNG copy)> <./media/resized/11.png (P
+NG copy)> <./media/resized/12.png (PNG copy)> <./media/resized/13.png (PNG copy
+)> <./media/resized/14.png (PNG copy)> <./media/resized/1.png (PNG copy)> <./me
+dia/resized/2.png (PNG copy)>]
 Chapter 4.
-[9
+[8
 
 
 ]
 Chapter 5.
+[9
+
+
+]
+Chapter 6.
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the manual.maf file.
@@ -925,18 +800,15 @@ Package minitoc(hints) Warning: W0024
 
 ] (./manual.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7237 strings out of 495061
- 105361 string characters out of 1182621
+ 7269 strings out of 495061
+ 106038 string characters out of 1182621
  213389 words of memory out of 3000000
- 10070 multiletter control sequences out of 15000+50000
- 7190 words of font info for 26 fonts, out of 3000000 for 9000
+ 10102 multiletter control sequences out of 15000+50000
+ 7021 words of font info for 25 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  43i,7n,41p,251b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
@@ -945,10 +817,10 @@ live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
 ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/
 amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
 /cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on manual.pdf (10 pages, 5350871 bytes).
+fb>
+Output written on manual.pdf (10 pages, 6193182 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
