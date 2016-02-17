@@ -93,9 +93,44 @@ disp('Hey roomba, where are you going?');
 disp('************************************************************');
 pause(2.5);
 
+[axes, buttons, povs] = read(joy);
+
+run_program = true;
+while (run_program==true)
+    [axes, buttons, povs] = read(joy);
+%     display(axes);
+%     display(buttons);
+%     display(povs);
+    cmd_linear      = 0;
+    cmd_angular     = 0;
+    if ((axes(1)~=0) || (axes(2)~=0))
+        cmd_linear  = -axes(2);
+        cmd_angular = -axes(1);
+    else
+        if ((axes(3)~=0) || (axes(4)~=0))
+            cmd_linear  = -axes(4);
+            cmd_angular = -axes(3);
+        else
+            cmd_linear  = -axes(6);
+            cmd_angular = -axes(5);
+        end%if
+    end%if
+    
+    
+    mfu_set_robot_lin_speed(serPort, cmd_linear);
+    if (cmd_angular>0)
+        lmo_turnAngle(serPort, speed/2, 5);
+    elseif (cmd_angular<0)
+        lmo_turnAngle(serPort, speed/2, -5);
+    else
+        %do nothing
+    end%if
+    
+    pause(0.05);
+end%while
 
 
-
+close(joy);
 
 disp('************************************************************');
 disp('roomba: main.m executed succesfully');
