@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.2)  5 FEB 2016 11:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.2)  17 FEB 2016 12:17
 entering extended mode
  %&-line parsing enabled.
 **manual.tex
@@ -770,6 +770,10 @@ NG copy)> <./media/resized/12.png (PNG copy)> <./media/resized/13.png (PNG copy
 )> <./media/resized/14.png (PNG copy)> <./media/resized/1.png (PNG copy)> <./me
 dia/resized/2.png (PNG copy)>]
 Chapter 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 90.
 [8
 
 
@@ -804,23 +808,24 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7269 strings out of 495061
- 106038 string characters out of 1182621
+ 7282 strings out of 495061
+ 106163 string characters out of 1182621
  213389 words of memory out of 3000000
- 10102 multiletter control sequences out of 15000+50000
- 7021 words of font info for 25 fonts, out of 3000000 for 9000
+ 10109 multiletter control sequences out of 15000+50000
+ 8844 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  43i,7n,41p,251b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb>
-Output written on manual.pdf (10 pages, 6193182 bytes).
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on manual.pdf (10 pages, 6211666 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 162 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

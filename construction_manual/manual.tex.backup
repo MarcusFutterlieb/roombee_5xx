@@ -71,24 +71,29 @@ The final images in Figure~\ref{fig:setup_1} show the serial to USB cable.
 \subfigure[Turn your Roomba upside down]{\label{fig:upside_down1}\includegraphics[width=0.45\textwidth]{media/resized/10.png}}
 \subfigure[Locate the corner brush]{\label{fig:upside_down2}\includegraphics[width=0.45\textwidth]{media/resized/9.png}}
 \subfigure[Remove screw to remove corner brush]{\label{fig:remove_corner_brush}\includegraphics[width=0.45\textwidth]{media/resized/11.png}}
-\subfigure[]{\label{fig:b}\includegraphics[width=0.45\textwidth]{media/resized/1.png}}
-\subfigure[Figure B]{\label{fig:upside_down}\includegraphics[width=0.45\textwidth]{media/resized/2.png}}
+\subfigure[Remove the dust container]{\label{fig:remove_dust_container}\includegraphics[width=0.45\textwidth]{media/resized/12.png}}
+\subfigure[Remove the underbody cover lid to gain access to the battery and main brushes]{\label{fig:remove underbody}\includegraphics[width=0.45\textwidth]{media/resized/13.png}}
+\subfigure[Take out the main brush system]{\label{fig:b}\includegraphics[width=0.45\textwidth]{media/resized/14.png}}
+
+\subfigure[Re-attach the underbody lid and the dust container]{\label{fig:b}\includegraphics[width=0.45\textwidth]{media/resized/1.png}}
+\subfigure[Your robot is now operational]{\label{fig:upside_down}\includegraphics[width=0.45\textwidth]{media/resized/2.png}}
 
 \caption{Remove Roomba cleaning equipment to gain battery autonomy}
 \label{fig:setup_2}
 \end{figure}
 
-\begin{figure}
-\centering     %%% not \center
-\subfigure[Figure B]{\label{fig:b}\includegraphics[width=0.45\textwidth]{media/resized/12.png}}
-\subfigure[Figure B]{\label{fig:b}\includegraphics[width=0.45\textwidth]{media/resized/13.png}}
-\subfigure[Figure B]{\label{fig:b}\includegraphics[width=0.45\textwidth]{media/resized/14.png}}
-\caption{Extract of video sequence~\cite{???!!!} - dynamic obstacles (b)}
-\label{fig:setup_3}
-\end{figure}
-
 
 \chapter{How to use the Code}
+So far you can use the following scripts:
+
+\begin{itemize}
+ \item $main.m$ - you are asked what you want to write
+ \item $main_xbox.m$ - move the robot with your xbox controller
+\end{itemize}
+
+
+
+
 \chapter{How to create the Light Graffiti Effect}
 The tool used for post processing the video material is \href{https://kdenlive.org/}{Kdenlive}.
 It should be accessible through the apt-get command.
