@@ -1,0 +1,14 @@
+*.aux
+*.out
+*.mtc
+*.maf
+*.loa
+*.lot
+*.mtc*
+*.log
+*.blg
+*.toc
+*.bbl
+*.lof
+*.*~
+*.bak
